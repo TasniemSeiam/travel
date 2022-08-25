@@ -1,0 +1,601 @@
+*{
+    margin: 0px;padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    min-height:100vh ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) ,url(../image/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom:10px;
+    background-attachment: fixed;
+    
+}
+.word{
+    white-space: nowrap;
+    overflow: hidden;
+    width:5em;
+    margin: auto;
+    animation: type 3s steps(20,end); 
+}
+
+@keyframes type{ 
+    from { 
+         width: 0; 
+         } 
+ }
+
+ 
+nav a{
+    color: white!important;
+}
+.navbar-brand , header h1 , .h2 , .menu h4 ,.carousel-item h5{
+    font-family:cursive;
+}
+.nav-link:hover{
+    color: #0094a4 !important;
+    text-decoration: #0094a4 underline;
+}
+.navbar-light .navbar-toggler{
+    color: #fff;
+    border-color: #ffffff8a;
+}
+.nav-item{
+    font-size: 20px;
+    padding: 3px;
+}
+.get{
+    margin-bottom: 5px;
+    color: white;
+    /* */
+    border: 1px solid white ;
+    border-radius:30px;
+    /*  */
+
+}
+.get:hover{
+   background-color: #0094a4;
+   border: #0094a4 1px solid;
+}
+/* **end header** */
+.card1 .title-card{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: #0094a4;
+}
+.card1{
+    box-shadow: 1px 2px 7px #adadad;
+    border: none;
+    transition:transform 1s;
+}
+
+.card1:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.card1 .card-img-top{
+    height:50vh;
+}
+/* ** endsection1 services** */
+
+.book{
+    background-color: transparent;
+    border: none;
+}
+.book .card-img-top{
+    width:100px;
+    margin: auto;
+}
+h2{
+    color:#333;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+h2::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2.5px;
+    background-color: #e07313;
+    margin: 23px auto;
+    margin-bottom: 40px;
+}
+/****end section2 in services****/
+/***start home*****/
+.c1{
+    min-height: 50vh;
+    background-image:url(../image/farnc.jpg);
+    /*  */
+
+}
+.c2{
+    border: white 3px solid;
+    
+}
+
+.c3{
+    min-height: 25vh;
+    background-image:url(../image/cairo.jpeg);
+    /* */
+
+}
+.c4{
+    min-height: 25vh;
+    background-image:url(../image/greec.jpeg);
+    
+
+}
+.c5{
+    min-height: 25vh;
+    background-image:url(../image/turkey.jpeg);
+   
+
+}
+.c6{
+    min-height: 25vh;
+    background-image:url(../image/korea.jpeg);
+    /* */
+    
+
+}
+.c1 , .c3,.c4,.c5,.c6{
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: white 7px solid;
+    border-radius: 7%;
+    
+}
+
+.dest .c1:hover,.c2 .c3:hover ,.c2 .c4:hover,.c2 .c5:hover,.c2 .c6:hover{
+    transform: scale(0.9);
+    overflow: hidden;
+}
+
+/* section offers*/
+
+.para{
+    word-spacing: 1px;
+    font-family: monospace;
+}
+.card3 .title-card{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.num{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.card3{
+    
+    border: none;
+    transition:transform 1s;
+}
+
+
+.card3 .card-img-top{
+    height:50vh;
+}
+
+/******weather****/
+.weather {
+    text-align: center;
+    /* background-color: orange; */
+    background: linear-gradient(rgba(0,0,3,.5),rgba(0,0,2,.6)),url(../image/pexels-archie-binamira-913215.jpg) center no-repeat;
+    background-size: cover;
+   
+}
+
+.weather p,.weather h3 {
+    
+    word-spacing: 2px;
+    
+    color: white !important;
+}
+.weather h3::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color:white;
+    margin: 20px auto;
+}
+
+
+
+.know{
+    background-color: #eee;
+    
+    color: black;
+}
+
+.know .card{
+   position: relative;
+}
+.know i{
+    color: #e07313;
+    position: absolute;
+    left:25px;
+    top: 15px;
+
+}
+.know .card:hover{
+    box-shadow: 10px 10px 10px  5px #aaaaaa;
+    
+
+}
+.know .card:hover i{
+    position: absolute;
+    left: 20px;
+}
+.know .card:hover h5{
+    font-size: 20px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+/****end home*******/
+.left img{
+    height:50vh;
+    border-radius: 10px;
+    /*  */
+}
+/*  */
+
+/* end services page */
+
+#testimonials{
+    color: white;
+    background-image: linear-gradient(rgba(95, 82, 82, 0.5),rgba(130, 132, 209, 0.5)),url(../image/pexels-pixabay-459225.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 35vh;
+}
+
+.car_inner{
+    height: 500px;
+}
+
+
+ /* */
+
+
+.card2{
+    background-color: #cecece ;
+    color: black;
+    opacity:.8;
+    transition: 1s;
+    transform: scale(1);
+}
+
+.card2:hover{
+    opacity:1;
+    transform: scale(1.1);
+}
+
+/* end about page */
+
+
+footer{
+    background-color: #a0a0a096;
+}
+footer ul{
+    list-style: none;
+}
+.footerfollow ul li{
+    display: inline-block;
+     margin:2px 7px;
+}
+.footerfollow ul li a{
+    padding-right: 2px;
+    font-size: 20px;
+    color: #202020;
+}
+
+.footer-h6{
+   font-size: 18px;
+   font-family: serif;
+   font-weight: bold;
+   color: #00606b;
+}
+.footerpages a{
+    color: #202020;
+    font-size: 15px;
+}
+.footerpages a:hover,.footerfollow ul li a:hover{
+ color: #0094a4;
+}
+/*******end footer****/
+
+/************egypt*******/
+
+.foods .om{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../image/omali.jpg)  center no-repeat;
+   
+}
+.foods .kushari{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../image/kushari.jpg)  center no-repeat;
+}
+.foods .Kunafa{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../image/kunafa-recipe.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .flafel{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../image/Falafel.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .kahk{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../image/kakh.jpg)  center no-repeat;
+    height: 35vh;
+}
+
+.foods .kushari ,.foods .om ,.foods .flafel, .foods .Kunafa ,.foods .kahk,.foods .mant ,.foods .borek ,.foods .kofte,.foods .lahmacun,.foods .sis-kebap,.foods .macarons,.foods .creme,.foods .souffle,.foods .Madeleines,.foods .Escargot,.foods .kimchi,.foods .nodels,.foods .Jjajangmyeon,.foods .Bibimbap,.foods .Seolleongtang,.foods .Spanakopita,.foods .Kalamarakia,.foods .GreekSalad,.foods .KotopouloLemonato,.foods .pudding{
+    background-size: cover;
+    margin: 10px;
+    height: 30vh;
+    border-radius: 15px;
+}
+.foods .kushari:hover ,.foods .om:hover ,.foods .flafel:hover, .foods .Kunafa:hover ,.foods .kahk:hover,.foods .mant:hover,.foods .kofte:hover,.foods .borek:hover,.foods .lahmacun:hover,.foods .sis-kebap:hover,.foods .macarons:hover,.foods .creme:hover,.foods .souffle:hover,.foods .Madeleines:hover,.foods .Escargot:hover,.foods .kimchi:hover,.foods .nodels:hover,.foods .Jjajangmyeon:hover,.foods .Bibimbap:hover,.foods .Seolleongtang:hover,.foods .Spanakopita:hover,.foods .Kalamarakia:hover,.foods .GreekSalad:hover,.foods .KotopouloLemonato:hover,.foods .pudding:hover{
+    opacity:0.9;
+}
+
+
+
+/********** turkey**********/
+
+
+.foods .mant{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/mant.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .borek{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/baklawa.jpeg)  center no-repeat;
+    height: 35vh;
+}
+.foods .kofte{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Köfte.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .lahmacun{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Lahmacun.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .sis-kebap{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/sis-kebap.jpg)  center no-repeat;
+    height: 35vh;
+}
+/********france**********/
+.foods .macarons{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/macarons.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .creme{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Crèmebrûlée.jpeg)  center no-repeat;
+    height: 35vh;
+}
+.foods .souffle{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Soufflé.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .Madeleines{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Madeleines.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .Escargot{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Escargot.jpg)  center no-repeat;
+    height: 35vh;
+}
+/************korea*********/
+.foods .kimchi{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/kimchi.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .nodels{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/nodels.jpeg)  center no-repeat;
+    height: 35vh;
+}
+.foods .nodels{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/nodels.jpeg)  center no-repeat;
+    height: 35vh;
+}
+.foods .Jjajangmyeon{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Jjajangmyeon.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .Bibimbap{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Bibimbap.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .Seolleongtang{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Seolleongtang.webp)  center no-repeat;
+    height: 35vh;
+}
+/************Greece**********/
+
+.foods .Spanakopita{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Spanakopita.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .Kalamarakia{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/Kalamarakia.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .GreekSalad{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/GreekSalad.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .KotopouloLemonato{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/KotopouloLemonato.jpg)  center no-repeat;
+    height: 35vh;
+}
+.foods .pudding{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../image/pudding.jpg)  center no-repeat;
+    height: 35vh;
+}
+
+
+
+/************** top button*****************/
+@keyframes moves{
+    0%{
+      transform: scale(1.3);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+      transform: scale(1.3);
+    }
+  }
+#s {
+    display: block;
+    padding: 2.5px;
+    position:absolute;
+    position: fixed;
+    bottom:  10px; right: 3px;
+    display: none;
+    z-index: 1;
+    animation: moves 2s  infinite ;
+}
+#s i {
+     border: 1px solid #2869e2;
+    border-radius: 50%;
+    padding: 2px;
+}
+.appear{
+      display: block!important;
+}
+
+
+/*********form1**************/
+.fdest{
+    position: relative;
+    bottom: 41px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.d{
+    color: gray;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    box-shadow: #aaa9a9bd 0px 0px 5px;
+    text-align: center;
+    outline: none;
+    
+}
+
+
+
+/******form booking travel*****/
+
+
+.booking{
+    /* background-color: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+    height: 80%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    position: fixed;
+    box-shadow: #519bfc 0px 0px 7px;
+    z-index: 10;
+}
+/* .booking h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+   
+} */
+.booking .p{
+    /* font-size: 14px;
+    font-weight: 400;
+    color: black; */
+    border-bottom: 1.5px solid black;
+    
+}
+.closebooking{
+    position: absolute;
+    top: 4%;
+    left: 92%;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.closebooking:hover{
+    font-size: 25px;
+    color: #2e5efc;
+}
+/* .lables:not(.destination,.room){
+    display: block;
+} */
+.lables{
+    color: #2e2e2e;
+    font-size: 15px;
+    position: relative;
+    top:8px;
+    display: block;
+    
+}
+
+
+#name, #email,#phone,#date{
+    border:none;
+    border-bottom: 1.5px solid #2e5efc;
+    font-size: 13px;
+    /* position: relative;
+    bottom: 5px; */
+    color: #888888;
+    outline: none ;
+}
+#destination{
+    /* width: 300px; */
+    color: #888888;
+    outline:none;
+    font-size: 13px;
+    position: relative ;
+    top: 5px;
+    
+}
+#destination:hover,#room:hover{
+    border: 1.5px solid #2e5efc;
+    border-radius: 2px;
+}
+#book{
+    /* color: #2e5efc;
+    background-color: transparent;
+    border: 1px solid #2e5efc;
+    border-radius: 3px;
+    width: 100px;
+    padding: 6px 15px;
+    font-size: 15px;
+    bottom: 5%;*/
+    position: relative;
+    left: 41%; 
+    outline: none;
+}
+/* #book:hover{
+    color: #ffffff;
+    background-color: #2e5efc;
+    border:none;
+    border-radius: 3px;
+} */
+/******************************************/
+.dheart{
+    position: absolute;
+    right: 2px;
+}
+.like{
+    color: #9e0606;
+}

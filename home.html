@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travels-Home</title>
+    <link rel="shortcut icon" href="image/logg.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top">
+
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <a class="navbar-brand " href="#">
+                    <img src="image/logot.jpg" height="80" width="90" class="rounded-circle wow fadeInDown"
+                        data-wow-duration="3s" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto mr-5 ">
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="indexAbout.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="indexServices.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div><!-- container -->
+        </nav><!-- nav -->
+
+        <div class="container text-center ">
+            <h1 class="text-white mt-5 pt-5  word">Travel</h1>
+
+            <!-- <a href="#description" class="btn get px-3 py-2 mt-5">Get Started</a> -->
+            <button name="bookplane" id="bookplane" class="bookplane btn get px-5 py-2 mt-5"> Book </button>
+        </div>
+
+    </header><!-- header -->
+
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <section class="container">
+        <div class=" p-3 m-3 text-center fdest m-auto  ">
+
+            
+                <form action="" method="post" class="">
+
+
+                    <label for="hotel">Hotel : </label>
+                    <select name="hotel" id="hotel" class=" mr-2 p-1 d my-2 form-control-md " required>
+                        <option value=""> Hotel </option>
+                        <option value="Kempinski Nile">Kempinski Nile</option>
+                        <option value="Atlantis pyramids inn ">Atlantis pyramids inn </option>
+                        <option value="Pyramisa Island Hotel">Pyramisa Island Hotel</option>
+
+                    </select><!-- hotel -->
+
+
+
+                    <label for="checkin"> Checkin : </label>
+                    <input type="date" name="checkin" id="checkin" class="d mr-3 my-2 p-1 form-control-md" required>
+
+
+                    <label for="checkout"> Checkout : </label>
+                    <input type="date" name="checkout" id="checkout" class="d mr-3 my-2 p-1 form-control-md">
+
+
+                    <label for="room" class=""> Room : </label>
+                    <input type="number" id="" class="d mr-3 my-2 p-1 form-control-md " placeholder=" room " min="1" max="5">
+
+
+
+
+                    <input type="submit" value="ok" class="btn text-light bg-info m-2"
+                        onclick="alert('check your e-mail you booked hotel')">
+                    <input type="reset" value="reset" class="btn text-light bg-info m-2">
+
+
+                </form><!--  -->
+            <!-- row -->
+
+
+        </div><!-- form1 hotel -->
+    </section><!-- container  -->
+
+    <!-- /////////////////////////////////////////////////////////////////////////////// -->
+    <!-- 
+<div class=" booking nnn mt-2 px-4">
+    <h3 class="pt-4">Booking Travel</h3>
+    <p class="pb-1 p">it's quick and easy</p>
+    <i class="far fa-window-close  closebooking"></i>
+
+    <form action="" class="forms card-text" id="form" method="post">
+        <label for="name" class="lables"> Name</label>
+        <input type="text" class="name reden" placeholder="Enter name.." name="name" id="name">
+
+        <label for="email" class="lables"> Email </label>
+        <input type="email" class="email reden" placeholder="Enter email.." name="email" id="email" required>
+
+        <label for="phone" class="lables"> Phone </label>
+        <input type="tel" class="phone reden" placeholder="Enter Phone.. " name="phone" id="phone" required>
+
+        <label for="date" class="lables"> Date : </label>
+        <input type="date" name="date" id="date" class="date" required>
+
+        <label for="destination" class="destination lables"> Destination </label>
+            <select name="destination" id="destination" class="" required>
+                <option value="egypt" selected>Egypt</option>
+                <option value="korea">Korea</option>
+                <option value="france">France</option>
+                <option value="greece">Greece</option>
+                <option value="turkey">Turkey</option>
+            </select>
+
+
+
+        <input type="submit" id="book" class="reden" name="book" value="book" onclick="alert('check your e-mail you booked travel')" >
+
+    </form> -->
+    <!-- </div>  form plane -->
+
+
+
+
+    <!-- <div class="p-2 planediv"> -->
+     <!-- <div class=""> -->
+        <div class=" card nnn booking col-lg-4  col-sm-7  ">
+            <div class="card-body  ">
+                <h3 class="pt-4 ml-1 card-title">Booking Travel</h3>
+                <p class="pb-1 p ml-1 card-text ">it's quick and easy</p>
+                <i class="far fa-window-close closebooking"></i>
+
+                <div class="card-text ">
+                    <form action="" class="forms  " id="form" method="post">
+                        <label for="name" class="lables"> Name</label>
+                        <input type="text" class="name reden form-control-plaintext " placeholder="Enter name.." name="name" id="name">
+
+                        <label for="email" class="lables"> Email </label>
+                        <input type="email" class="email reden form-control-plaintext " placeholder="Enter email.." name="email" id="email"
+                            required>
+
+                        <label for="phone" class="lables"> phone </label>
+                        <input type="tel" class="phone reden form-control-plaintext " placeholder="Enter Phone.. " name="phone" id="phone"
+                            required>
+
+                        <label for="date" class="lables "> Date </label>
+                        <input type="date" name="date" id="date" class="date form-control-plaintext " required>
+
+                        <label for="destination" class="destination lables "> Destination </label>
+                        <select name="destination" id="destination" class="d-block p-1 mb-3 form-control" required>
+                            <option value="egypt" selected>Egypt</option>
+                            <option value="korea">Korea</option>
+                            <option value="france">France</option>
+                            <option value="greece">Greece</option>
+                            <option value="turkey">Turkey</option>
+                        </select>
+
+
+                        <input type="submit" id="book" class="reden hi mt-1  btn btn-primary " name="book" value="book"
+                            onclick="alert('check your e-mail you booked travel')">
+
+
+                    </form><!--  -->
+
+                </div><!-- card text and form -->
+            </div><!-- card body -->
+        </div><!-- card nnn booking -->
+    <!-- </div> -->
+
+
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+
+    <section id="desciption" class="dest" data-aos="fade-up">
+        <div class="container p-5">
+            <h2 class="text-center text-uppercase font-weight-bold ">Popular Destination</h2>
+
+            <div class="row ">
+                <a href="indexFrance.html" class="text-decoration-none">
+                    <div class="col-lg-6  c1" data-aos="fade-up">
+                        <div
+                            class="text-capitalize font-weight-bold pt-5 mt-5 pb-0 mb-0 align-bottom align-text-bottom texting">
+                            <h6 class=" pt-5 mt-5 pb-0 mb-0 text-white ">France</h6>
+                            <p class="text-lowercase font-weight-lighter  text-white ">7 cities</p>
+                        </div> <!-- texting -->
+                </a>
+
+            </div> <!-- c1 -->
+
+            <div class="col-lg-6   c2">
+
+                <div class="row">
+
+                    <div class="col-lg-6  c3" data-aos="fade-up">
+                        <a href="indexEgypt.html" class="text-decoration-none">
+                            <div
+                                class="text-capitalize font-weight-bold pt-5 mt-5 pb-0 mb-0 align-bottom align-text-bottom texting">
+                                <h6 class="  text-white ">egypt</h6>
+                                <p class="text-lowercase font-weight-lighter  text-white ">28 cities</p>
+                            </div> <!-- texting -->
+                        </a>
+
+
+                    </div> <!-- c3 -->
+
+                    <div class="col-lg-6  c4" data-aos="fade-up">
+                        <a href="indexGreece.html" class="text-decoration-none">
+                            <div
+                                class="text-capitalize font-weight-bold pt-5 mt-5 pb-0 mb-0 align-bottom align-text-bottom texting">
+                                <h6 class="text-white ">greece</h6>
+                                <p class="text-lowercase font-weight-lighter  text-white ">13 cities</p>
+                            </div> <!-- texting -->
+                        </a>
+
+                    </div> <!-- c4 -->
+
+                    <div class="col-lg-6  c5" data-aos="fade-up">
+                        <a href="indexTruky.html" class="text-decoration-none">
+                            <div
+                                class="text-capitalize font-weight-bold pt-5 mt-5 pb-0 mb-0 align-bottom align-text-bottom texting">
+                                <h6 class=" text-white ">Turkey</h6>
+                                <p class="text-lowercase font-weight-lighter  text-white ">81 cities</p>
+                            </div> <!-- texting -->
+                        </a>
+
+                    </div> <!-- c5 -->
+
+                    <div class="col-lg-6  c6" data-aos="fade-up">
+                        <a href="indexKorea.html" class="text-decoration-none">
+                            <div
+                                class="text-capitalize font-weight-bold pt-5 mt-5 pb-0 mb-0 align-bottom align-text-bottom texting">
+                                <h6 class="  text-white ">korea</h6>
+                                <p class="text-lowercase font-weight-lighter  text-white ">8 cities</p>
+                            </div> <!-- texting -->
+                        </a>
+
+                    </div> <!-- c6 -->
+
+                </div> <!-- row -->
+
+            </div> <!-- c2 -->
+
+        </div> <!-- row -->
+        </div> <!-- containr -->
+    </section> <!-- dest -->
+
+    <section class="offer">
+        <div class="container p-5">
+            <h2 class="text-center text-uppercase font-weight-bold ">Costs</h2>
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 " data-aos="fade-up">
+                    <div class="card card3 mb-5 ">
+                        <img src="image/31.jpg" class="card-img-top" alt="">
+                        <div class="card-body d-flex">
+                            <h4 class="title-card text-uppercase text-dark float-left">indea </h4>
+                            <h6 class="title-card text-danger float-right num">$520</h6>
+                        </div>
+                    </div><!-- card1 -->
+                </div> <!-- col1 -->
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card card3 mb-5  ">
+                        <img src="image/32.jpg" class="card-img-top" alt="" data-aos="fade-up">
+                        <div class="card-body d-flex">
+                            <h4 class="title-card text-uppercase text-dark float-left">Turkey </h4>
+                            <h6 class="title-card text-danger float-right num">$480</h6>
+                        </div>
+                    </div>
+                </div> <!-- col2 -->
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card card3 mb-5 ">
+                        <img src="image/91.jpg" class="card-img-top" data-aos="fade-up" alt="">
+                        <div class="card-body d-flex">
+                            <h4 class="title-card text-uppercase text-dark float-left">korea</h4>
+                            <h6 class="title-card text-danger  float-right num">$600</h6>
+
+                        </div>
+                    </div>
+                </div> <!-- col3 -->
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card card3 mb-5 ">
+                        <img src="image/33.jpg" class="card-img-top " data-aos="fade-up" alt="">
+                        <div class="card-body d-flex">
+                            <h4 class="title-card text-uppercase text-dark float-left">Egypt</h4>
+                            <h6 class="title-card text-danger  float-right num">$400</h6>
+
+                        </div>
+                    </div>
+                </div> <!-- col1 -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+
+
+    </section> <!-- end of offers -->
+
+
+    <section class="weather bg-info" data-aos="fade-up">
+        <div class="container p-5" data-aos="fade-up">
+            <h3 class="text-capitalize font-weight-light text-monospace">weather
+            </h3><!--  -->
+
+
+            <div id="app" class=" app justify-content-between  row">
+
+                <div class="col-md-4 ">
+
+                    <div class="card  text-white px-2 my-2 bg-info mb-3">
+                        <div class="card-header headerweathE">Egypt</div>
+                        <div class="card-body bodyweathE">
+                            <img src="image/egyweath.png" alt="mist">
+                            <h5 class="card-title titleweathE">
+                                <span class="text-light">feels like :</span>
+                            </h5>
+                            <div class="card-text textweathE">
+                                <p class="timeweath">update : 2021-12-20 8:03 </p>
+                                <p class="hamiweath">Hamidity : </p>
+                                <p class="wind-dirweath">Wind direction : </p>
+                                <p class="cloudweath">Cloud : </p>
+
+                            </div>
+                        </div>
+                    </div><!-- card -->
+                </div>
+                <!-- 1 -->
+
+                <div class="col-md-4 ">
+
+                    <div class="card  text-white px-2 my-2 bg-info mb-3">
+                        <div class="card-header headerweathE">Korea</div>
+                        <div class="card-body bodyweathE">
+                            <img src="image/113.png" alt="">
+                            <h5 class="card-title titleweathE"><span class="text-light">feels like :</span> </h5>
+                            <div class="card-text textweathE">
+                                <p class="timeweath">update : 2021-12-20 8:03 </p>
+                                <p class="hamiweath">Hamidity : </p>
+                                <p class="wind-dirweath">Wind direction : </p>
+                                <p class="cloudweath">Cloud : </p>
+
+                            </div>
+                        </div>
+                    </div><!-- card -->
+                </div>
+                <!-- 2 -->
+                <div class="col-md-4 ">
+
+                    <div class="card  text-white px-2 my-2 bg-info mb-3">
+                        <div class="card-header headerweathE">France</div>
+                        <div class="card-body bodyweathE">
+                            <img src="image/122.png" alt="">
+                            <h5 class="card-title titleweathE"><span class="text-light">feels like :</span> </h5>
+                            <div class="card-text textweathE">
+                                <p class="timeweath">update : 2021-12-20 8:03 </p>
+                                <p class="hamiweath">Hamidity : </p>
+                                <p class="wind-dirweath">Wind direction : </p>
+                                <p class="cloudweath">Cloud : </p>
+
+                            </div>
+                        </div>
+                    </div><!-- card -->
+                </div>
+                <!-- 3 -->
+
+
+            </div>
+            <!--app row -->
+
+        </div><!-- containerweather -->
+
+    </section> <!-- weather -->
+
+
+    <section class="know">
+        <div class="container p-5">
+            <h2 class="text-center text-uppercase font-weight-bold ">did you know ?</h2>
+            <p class="text-center p-2"> ALL travelers, MUST have a negative COVID-19 viral test or documentation of
+                recovery within 3 days of
+                departure <br> of their destination -bound flight. You will NOT be
+                allowed onto your return flight without <br> presenting negative test results.</p>
+
+            <div class="row">
+                <div class="col-lg-4 mb-1 " data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-2"> <i class="fas fa-route fa-2x "></i> Best Travel
+                                Agent</h5>
+                            <p class="card-text p-4">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+
+                        </div> <!-- card-body -->
+                    </div> <!-- card -->
+                </div> <!-- c1 -->
+
+                <div class="col-lg-4 mb-1" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-2"> <i class="fab fa-avianex  fa-2x"></i>Trust & Safety
+                            </h5>
+                            <p class="card-text p-4">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+
+                        </div> <!-- card-body -->
+                    </div> <!-- card -->
+
+                </div><!-- c2 -->
+
+                <div class="col-lg-4 mb-1" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-2 "><i class="fas fa-bullhorn  fa-2x"></i>Best Price
+                            </h5>
+                            <p class="card-text p-4">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+
+                        </div> <!-- card-body -->
+                    </div> <!-- card -->
+
+                </div>
+                <!--c3-->
+            </div> <!-- row -->
+        </div> <!-- container -->
+
+    </section> <!-- know -->
+
+
+
+    <!-- button top -->
+    <a href="#top" id="s"><i class="fas fa-arrow-up  text-info"></i></a>
+    <!-- button top -->
+
+
+    <footer class="footer  p-5" data-aos="fade-up">
+        <section class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6 pb-2 pr-3 text-center ">
+                    <img src="image/logot.jpg" class="w-50 wow tada rounded-circle" data-wow-duration="2.3s"
+                        data-wow-delay="1.1s" alt="logo">
+
+
+                </div><!-- 1footerfollow -->
+
+
+                <div class="col-md-3 pb-1 col-sm-6 text-center footerpages">
+                    <h6 class="footer-h6">Pages : </h6>
+                    <ul>
+                        <li><a href="home.html">Home </a></li>
+                        <li><a href="indexAbout.html">About</a></li>
+
+                        <li><a href="indexServices.html">Services</a></a></li>
+                        <li><a href="#contact">Contact</a></a></li>
+                    </ul>
+                </div><!-- 2 -->
+
+                <div class="col-md-3 pb-1 col-sm-6 text-center footerContact">
+                    <h6 class="footer-h6" id="contact">Contact Us : </h6>
+                    <div class="">
+                        <p> <i class="fas fa-map-marker-alt p-1"></i> Damietta-New Damietta</p>
+                        <p> <i class="far fa-envelope p-1"></i> Exploretheworld@mail.com</p>
+                        <p> <i class="fas fa-phone-alt p-1"></i> +201326849112 </p>
+                    </div>
+                </div><!-- 3  -->
+
+                <div class="col-md-3 col-sm-6 text-center footerfollow">
+                    <h6 class="footer-h6">Follow Us : </h6>
+                    <ul class="">
+                        <li><a href="#travelfacebook"><i class="  fab fa-facebook"></i></a></li>
+                        <li><a href="#travelinstgram"><i class="  fab fa-instagram"></i></a></li>
+                        <li><a href="#traveltwitter"><i class="  fab fa-twitter"></i></a></li>
+                    </ul>
+                </div><!-- 4 -->
+
+            </div><!-- row -->
+        </section> <!-- container footer -->
+    </footer>
+
+
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
